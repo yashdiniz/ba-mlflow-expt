@@ -1,0 +1,2 @@
+# activate mlflow
+mlflow server --backend-store-uri sqlite:///./MLFlow/store.db --default-artifact-root ./MLFlow/MLartifacts -h 127.0.0.1 -p 5000
